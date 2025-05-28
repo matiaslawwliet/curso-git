@@ -1,0 +1,19 @@
+# Archivos de configuracion de visual
+.github/
+
+# Archivos de entorno
+.env
+
+# Archivos de logs, temporales y db
+*.log
+*.tmp
+*.temp
+*.bak
+*.sqlite
+*.db
+
+# Compilaciones y dependencias
+/dist/
+build/
+node_modules/
+vendor/
