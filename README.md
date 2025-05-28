@@ -32,3 +32,11 @@ Curso sobre Git y herramientas para implementar el control de versiones en aplic
 - Comandos básicos para ramas.
 - Uso de ramas en entornos gráficos.
 - Versionado de proyectos y uso de etiquetas (tags).
+
+---
+
+### 📚 Bibliografía
+- [github-git-cheat-sheet.pdf](bibliografia\github-git-cheat-sheet.pdf)
+- [Inicio - Sobre el Control de Versiones](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del-Control-de-Versiones)
+- [Fundamentos de Git - Obteniendo un repositorio Git](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git)
+- [Ramificaciones en Git - ¿Qué es una rama?](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
