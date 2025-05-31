@@ -33,7 +33,18 @@ Curso sobre Git y herramientas para implementar el control de versiones en aplic
 - Uso de ramas en entornos gráficos.
 - Versionado de proyectos y uso de etiquetas (tags).
 
----
+### 🧩 Actividad Integradora
+- [Elección de tecnología](recursos/eleccion-de-tecnologia.pdf): Describir al menos dos de los servicios a libre elección que aparecen como templates en la creación de proyectos en Gitlab.
+- Adaptación: Buscar y clonar un proyecto libre del Estado Argentino (fuera del repositorio) y copiar sus archivos dentro de nuestro repositorio en una carpeta con el nombre del proyecto clonado. Esto hacerlo en una rama distinta a la rama principal llamada proyectos.
+- Anotación: Escribir un README.md en el directorio raíz de nuestro repositorio explicando de qué se trata el curso. Esto debe hacerse en la rama principal.
+    - Agregar un apartado al README.md donde explique de qué se trata el repositorio clonado del Estado Argentino. Esto debe hacerse en la rama proyectos.
+    - Agregar un apartado al README.md con links y descripciones de al menos 2 herramientas web para aprender ramas en Git. En la rama principal.
+- Integración: Combinar (mergear) la rama proyectos con la principal y mencionar si hubo conflictos, en que archivos y cómo los soluciono. Poner toda la información sobrelos conflictos en un archivo llamado conflictos-merge.md.
+- Traspaso de conocimiento: Buscar y agregar a nuestro repositorio una hoja de datos (cheatsheet) de Git sea imagen, pdf o cualquier tipo de archivo en cualquier idioma (español preferentemente)
+
+### 🔀 Herramientas para Aprender sobre Ramas
+- [Learn Git Branching (español)](https://learngitbranching.js.org/?locale=es_AR): Simulador visual e interactivo para practicar ramas y comandos de Git.
+- [W3Schools Git Exercises](https://www.w3schools.com/git/git_exercises.asp): Ejercicios prácticos para aprender y reforzar conceptos de ramas en Git.
 
 ### 📚 Bibliografía
 - [github-git-cheat-sheet.pdf](bibliografia/github-git-cheat-sheet.pdf)
