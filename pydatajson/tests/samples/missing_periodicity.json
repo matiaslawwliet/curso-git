@@ -1,0 +1,34 @@
+{
+    "publisher": {
+        "mbox": "datosargentina@jefatura.gob.ar",
+        "name": "Ministerio de Modernización"
+    },
+    "description": "Portal de Datos Abiertos del Gobierno de la República Argentina",
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "title": "Datos Argentina",
+    "dataset": [
+        {
+            "identifier": "1",
+            "publisher": {
+                "name": "Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones"
+            },
+            "description": "Datos correspondientes al Sistema de Contrataciones Electrónicas (Argentina Compra)",
+            "superTheme": [
+                "ECON"
+            ],
+            "title": "Sistema de contrataciones electrónicas",
+            "issued": "2016-04-14T19:48:05.433640-03:00",
+            "source": "Ministerio de modernizacion",
+            "distribution": [
+                {
+                    "accessURL": "http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra/archivo/fa3603b3-0af7-43cc-9da9-90a512217d8a",
+                    "downloadURL": "http://186.33.211.253/dataset/99db6631-d1c9-470b-a73e-c62daa32c420/resource/4b7447cb-31ff-4352-96c3-589d212e1cc9/download/convocatorias-abiertas-anio-2015.csv",
+                    "title": "Convocatorias abiertas durante el año 2015",
+                    "issued": "2016-04-14T19:48:05.433640-03:00"
+                }
+            ]
+        }
+    ],
+    "version": "1.1",
+    "identifier": "7d4d816f-3a40-476e-ab71-d48a3f0eb3c8"
+}

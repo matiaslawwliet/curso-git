@@ -1,0 +1,167 @@
+{
+    "publisher": {
+        "mbox": "datosargentina@jefatura.gob.ar",
+        "name": "Ministerio de Modernización"
+    },
+    "license": "",
+    "description": "Portal de Datos Abiertos del Gobierno de la República Argentina",
+    "language": [
+        "spa"
+    ],
+    "title": "Datos Argentina",
+    "issued": "",
+    "rights": "",
+    "modified": "",
+    "dataset": [
+        {
+            "publisher": {
+                "mbox": "",
+                "name": "Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones"
+            },
+            "license": "",
+            "description": "Datos correspondientes al Sistema de Contrataciones Electrónicas (Argentina Compra)",
+            "superTheme": [
+                "ECON"
+            ],
+            "title": "Sistema de contrataciones electrónicas",
+            "issued": "2016-04-14T19:48:05.433640-03:00",
+            "temporal": "",
+            "modified": "",
+            "language": [
+                "spa"
+            ],
+            "theme": [
+                "contrataciones",
+                "compras",
+                "convocatorias"
+            ],
+            "keyword": [
+                "bienes",
+                "compras",
+                "contrataciones"
+            ],
+            "accrualPeriodicity": "R/P1Y",
+            "spatial": "ARG",
+            "identifier": "99db6631-d1c9-470b-a73e-c62daa32c420",
+            "contactPoint": {
+                "hasEmail": "",
+                "fn": ""
+            },
+            "landingPage": "",
+            "distribution": [
+                {
+                    "accessURL": "http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra/archivo/fa3603b3-0af7-43cc-9da9-90a512217d8a",
+                    "identifier": "d_Convocatorias abiertas durante el año 2015",
+                    "description": "",
+                    "license": "",
+                    "title": "Convocatorias abiertas durante el año 2015",
+                    "dataset_identifier": "99db6631-d1c9-470b-a73e-c62daa32c420",
+                    "byteSize": 5120,
+                    "format": "CSV",
+                    "rights": "",
+                    "mediaType": "",
+                    "type": "",
+                    "modified": "",
+                    "downloadURL": "http://186.33.211.253/dataset/99db6631-d1c9-470b-a73e-c62daa32c420/resource/4b7447cb-31ff-4352-96c3-589d212e1cc9/download/convocatorias-abiertas-anio-2015.csv",
+                    "field": [
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "procedimiento_id"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "organismo_unidad_operativa_contrataciones_id"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "unidad_operativa_contrataciones_id"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "organismo_unidad_operativa_contrataciones_desc"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "unidad_operativa_contrataciones_desc"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "tipo_procedimiento_contratacion"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "ejercicio_procedimiento_anio"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "fecha_publicacion_convocatoria"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "modalidad_convocatoria"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "clase_convocatoria"
+                        },
+                        {
+                            "type": "",
+                            "description": "",
+                            "title": "objeto_convocatoria"
+                        }
+                    ],
+                    "issued": "2016-04-14T19:48:05.433640-03:00",
+                    "fileName": "convocatoriasabiertasduranteelao.csv"
+                }
+            ],
+            "source": ""
+        }
+    ],
+    "identifier": "",
+    "version": "1.1",
+    "spatial": "",
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "themeTaxonomy": [
+        {
+            "label": "Convocatorias",
+            "description": "Datasets sobre licitaciones en estado de convocatoria.",
+            "id": "convocatorias"
+        },
+        {
+            "label": "Compras",
+            "description": "Datasets sobre compras realizadas.",
+            "id": "compras"
+        },
+        {
+            "label": "Contrataciones",
+            "description": "Datasets sobre contrataciones.",
+            "id": "contrataciones"
+        },
+        {
+            "label": "Adjudicaciones",
+            "description": "Datasets sobre licitaciones adjudicadas.",
+            "id": "adjudicaciones"
+        },
+        {
+            "label": "Normativa",
+            "description": "Datasets sobre normativa para compras y contrataciones.",
+            "id": "normativa"
+        },
+        {
+            "label": "Proveedores",
+            "description": "Datasets sobre proveedores del Estado.",
+            "id": "proveedores"
+        }
+    ],
+    "homepage": ""
+}
