@@ -43,8 +43,8 @@ Curso sobre Git y herramientas para implementar el control de versiones en aplic
 - Traspaso de conocimiento: Buscar y agregar a nuestro repositorio una hoja de datos (cheatsheet) de Git sea imagen, pdf o cualquier tipo de archivo en cualquier idioma (español preferentemente)
 
 ### 🔀 Herramientas para Aprender sobre Ramas
-- [Learn Git Branching (español)](https://learngitbranching.js.org/?locale=es_AR): Simulador visual e interactivo para practicar ramas y comandos de Git.
-- [W3Schools Git Exercises](https://www.w3schools.com/git/git_exercises.asp): Ejercicios prácticos para aprender y reforzar conceptos de ramas en Git.
+- [Learn Git Branching (español)](https://learngitbranching.js.org/?locale=es_AR): Simulador visual interactivo para practicar y entender el uso de ramas y comandos de Git de forma gráfica.
+- [W3Schools Git Exercises](https://www.w3schools.com/git/git_exercises.asp): Ejercicios prácticos y guiados para reforzar conceptos de ramas y comandos básicos de Git.
 
 ### 📚 Bibliografía
 - [github-git-cheat-sheet.pdf](bibliografia/github-git-cheat-sheet.pdf)
