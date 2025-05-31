@@ -1,0 +1,88 @@
+{
+    "superTheme": {
+        "anyOf": [
+            {"type": "string", "pattern": "^AGRI$"},
+            {"type": "string", "pattern": "^ECON$"},
+            {"type": "string", "pattern": "^EDUC$"},
+            {"type": "string", "pattern": "^ENER$"},
+            {"type": "string", "pattern": "^ENVI$"},
+            {"type": "string", "pattern": "^GOVE$"},
+            {"type": "string", "pattern": "^HEAL$"},
+            {"type": "string", "pattern": "^INTR$"},
+            {"type": "string", "pattern": "^JUST$"},
+            {"type": "string", "pattern": "^REGI$"},
+            {"type": "string", "pattern": "^SOCI$"},
+            {"type": "string", "pattern": "^TECH$"},
+            {"type": "string", "pattern": "^TRAN$"},
+            {"type": "string", "pattern": "^agri$"},
+            {"type": "string", "pattern": "^econ$"},
+            {"type": "string", "pattern": "^educ$"},
+            {"type": "string", "pattern": "^ener$"},
+            {"type": "string", "pattern": "^envi$"},
+            {"type": "string", "pattern": "^gove$"},
+            {"type": "string", "pattern": "^heal$"},
+            {"type": "string", "pattern": "^intr$"},
+            {"type": "string", "pattern": "^just$"},
+            {"type": "string", "pattern": "^regi$"},
+            {"type": "string", "pattern": "^soci$"},
+            {"type": "string", "pattern": "^tech$"},
+            {"type": "string", "pattern": "^tran$"}
+        ]
+    },
+    "nonEmptyStringOrNull": {
+        "anyOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+        ]
+    },
+    "nonEmptyString": { "type": "string", "minLength": 1},
+    "arrayOrNull": {
+        "anyOf": [
+            {
+                "type": "array",
+                "items": {"$ref": "#/nonEmptyString"}
+            },
+            { "type": "null" }
+        ]
+    },
+    "dateOrDatetimeString": {
+        "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "string", "format": "date-time" }
+        ]
+    },
+    "dateOrDatetimeStringOrNull": {
+        "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "string", "format": "date-time" },
+            { "type": "null" },
+            { "type": "string", "maxLength": 0 }
+        ]
+    },
+    "stringOrNull": {
+        "anyOf": [
+            { "type": "string" },
+            { "type": "null" }
+        ]
+    },
+    "fieldTitle": {
+        "anyOf": [
+            { "type": "string", "maxLength": 60 },
+            { "type": "null" }
+        ]
+    },
+    "temporalOrNull": {
+        "anyOf": [
+            { "type": "string", "pattern": "^(\\d{4}-\\d\\d-\\d\\d(T\\d\\d:\\d\\d:\\d\\d(\\.\\d+)?)?(([+-]\\d\\d:\\d\\d)|Z)?)\\/(\\d{4}-\\d\\d-\\d\\d(T\\d\\d:\\d\\d:\\d\\d(\\.\\d+)?)?(([+-]\\d\\d:\\d\\d)|Z)?)$" },
+            { "type": "string", "pattern": "^(\\d{4}-\\d\\d-\\d\\d(T\\d\\d:\\d\\d:\\d\\d(\\.\\d+)?)?(([+-]\\d\\d:\\d\\d)|Z)?)$" },
+            { "type": "null" },
+            { "type": "string", "maxLength": 0 }
+        ]
+    },
+    "emptyValue": {
+        "anyOf": [
+            { "type": "string", "maxLength": 0 },
+            { "type": "null" }
+        ]
+    }
+}

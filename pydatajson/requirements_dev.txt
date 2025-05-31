@@ -1,0 +1,17 @@
+bumpversion==0.5.3
+watchdog==0.8.3
+flake8==2.6.0
+coverage==4.1
+sphinx==1.7.5
+cryptography==2.1.4
+PyYAML
+nose>=1.3
+recommonmark==0.4.0
+twine>=1.11
+sphinx-rtd-theme==0.4.0
+sphinxcontrib-napoleon==0.6.1
+mock==2.0.0;python_version<"3.4"
+pycallgraph
+setuptools>=38.6
+wheel>=0.31
+vcrpy

@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+
+REQUESTS_TIMEOUT = 30
+DEFAULT_TIMEZONE = "America/Buenos_Aires"
+
+INVALID_STATUS_CODES_REGEX = ["^4[0-9]+$", "^5[0-9]+$"]
+EXCEPTION_STATUS_CODES = [429]
+
+DEFAULT_CHECK_TIMEOUT = 1

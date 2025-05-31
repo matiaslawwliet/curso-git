@@ -1,0 +1,52 @@
+{
+    "publisher": {
+        "mbox": "datosargentina@jefatura.gob.ar",
+        "name": "Ministerio de Modernización"
+    },
+    "license": "Open Data Commons Open Database License 1.0",
+    "description": "Portal de Datos Abiertos del Gobierno de la República Argentina",
+    "language": [
+        "spa"
+    ],
+    "title": "Datos Argentina",
+    "issued": "2016-04-14T19:48:05.433640-03:00",
+    "rights": "Derechos especificados en la licencia.",
+    "modified": "2016-04-19T19:48:05.433640-03:00",
+    "themeTaxonomy": [
+        {
+            "label": "Convocatorias",
+            "description": "Datasets sobre licitaciones en estado de convocatoria.",
+            "id": "convocatorias"
+        },
+        {
+            "label": "Compras",
+            "description": "Datasets sobre compras realizadas.",
+            "id": "compras"
+        },
+        {
+            "label": "Contrataciones",
+            "description": "Datasets sobre contrataciones.",
+            "id": "contrataciones"
+        },
+        {
+            "label": "Adjudicaciones",
+            "description": "Datasets sobre licitaciones adjudicadas.",
+            "id": "adjudicaciones"
+        },
+        {
+            "label": "Normativa",
+            "description": "Datasets sobre normativa para compras y contrataciones.",
+            "id": "normativa"
+        },
+        {
+            "label": "Proveedores",
+            "description": "Datasets sobre proveedores del Estado.",
+            "id": "proveedores"
+        }
+    ],
+    "version": "1.1",
+    "spatial": "ARG",
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "identifier": "7d4d816f-3a40-476e-ab71-d48a3f0eb3c8",
+    "homepage": "http://datos.gob.ar"
+}
